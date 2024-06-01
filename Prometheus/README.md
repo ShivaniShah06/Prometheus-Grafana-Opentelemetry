@@ -25,4 +25,4 @@
    - Node Exporter is an official Prometheus exporter for collecting metrics that are exposed by Unix-based kernels eg: Linux and Ubuntu
    - Example of metrics are CPU, Disk, Memory, & Network I/O
    - Can be extended with pluggable metric collectors
-2. 
+   - See this for instructions on how to install `node exporter` on your application server
