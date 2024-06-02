@@ -18,7 +18,11 @@
    $ sudo systemctl restart prometheus
    ```
 
-3. Go to `Prometheus UI > Status > Targets` and you should be able to see the server as one of the targets and its `State` should be `UP`. If not:
+3. Go to `Prometheus UI > Status > Targets` and you should be able to see the server as one of the targets and its `State` should be `UP`:
+   
+   ![alt text](Images/onfiguration.png)
+   
+   If not:
    - Try checking ip address in security group and firewall connections
    - Try running `curl "http://<public_ip>:9100/metrics"` on Prometheus backend and see if you get metrics
    - If there is error `Get "http://<public_ip>:9100/metrics”: context deadline exceeded"`, try modifying `scrape_interval` and `scrape_timeout` for that particular job
