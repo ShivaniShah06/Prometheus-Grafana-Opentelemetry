@@ -57,7 +57,7 @@
 
 ## What is Observability?
 - Monitoring is part of Observability
-  ![alt text](monitoring_vc_observability.png)
+  ![alt text](monitoring_vs_observability.png)
     - Observability not only tells us when and where the issue occured but also tells us why an issue occured
     - We do not need to know what we are going to monitor in advance. With the information that we collect through Observability, we can anticipate the problems that don't exist now but may arise later
  
